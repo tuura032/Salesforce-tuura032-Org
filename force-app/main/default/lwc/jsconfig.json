@@ -1,0 +1,305 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/bearLocation": [
+                "bearLocation/bearLocation.js"
+            ],
+            "c/bearSupervisor": [
+                "bearSupervisor/bearSupervisor.js"
+            ],
+            "c/modal": [
+                "modal/modal.js"
+            ],
+            "c/miscSharedJavaScript": [
+                "miscSharedJavaScript/miscSharedJavaScript.js"
+            ],
+            "c/miscStaticResource": [
+                "miscStaticResource/miscStaticResource.js"
+            ],
+            "c/miscNotification": [
+                "miscNotification/miscNotification.js"
+            ],
+            "c/miscRestApiCall": [
+                "miscRestApiCall/miscRestApiCall.js"
+            ],
+            "c/contactListItem": [
+                "contactListItem/contactListItem.js"
+            ],
+            "c/compositionWithAppBuilder": [
+                "compositionWithAppBuilder/compositionWithAppBuilder.js"
+            ],
+            "c/pubsubContactDetails": [
+                "pubsubContactDetails/pubsubContactDetails.js"
+            ],
+            "c/contactList": [
+                "contactList/contactList.js"
+            ],
+            "c/navToRecord": [
+                "navToRecord/navToRecord.js"
+            ],
+            "c/compositionContactSearch": [
+                "compositionContactSearch/compositionContactSearch.js"
+            ],
+            "c/navToRelatedList": [
+                "navToRelatedList/navToRelatedList.js"
+            ],
+            "c/compositionIteration": [
+                "compositionIteration/compositionIteration.js"
+            ],
+            "c/recordFormDynamicContact": [
+                "recordFormDynamicContact/recordFormDynamicContact.js"
+            ],
+            "c/eventBubbling": [
+                "eventBubbling/eventBubbling.js"
+            ],
+            "c/eventSimple": [
+                "eventSimple/eventSimple.js"
+            ],
+            "c/recordFormStaticContact": [
+                "recordFormStaticContact/recordFormStaticContact.js"
+            ],
+            "c/contactTile": [
+                "contactTile/contactTile.js"
+            ],
+            "c/recordEditFormDynamicContact": [
+                "recordEditFormDynamicContact/recordEditFormDynamicContact.js"
+            ],
+            "c/recordEditFormStaticContact": [
+                "recordEditFormStaticContact/recordEditFormStaticContact.js"
+            ],
+            "c/errorPanel": [
+                "errorPanel/errorPanel.js"
+            ],
+            "c/pubsubContactList": [
+                "pubsubContactList/pubsubContactList.js"
+            ],
+            "c/contactListItemBubbling": [
+                "contactListItemBubbling/contactListItemBubbling.js"
+            ],
+            "c/pubsubSearchBar": [
+                "pubsubSearchBar/pubsubSearchBar.js"
+            ],
+            "c/helloIterator": [
+                "helloIterator/helloIterator.js"
+            ],
+            "c/wireGetPicklistValues": [
+                "wireGetPicklistValues/wireGetPicklistValues.js"
+            ],
+            "c/wireGetPicklistValuesByRecordType": [
+                "wireGetPicklistValuesByRecordType/wireGetPicklistValuesByRecordType.js"
+            ],
+            "c/lds": [
+                "lds/lds.js"
+            ],
+            "c/wireCurrentPageReference": [
+                "wireCurrentPageReference/wireCurrentPageReference.js"
+            ],
+            "c/helloExpressions": [
+                "helloExpressions/helloExpressions.js"
+            ],
+            "c/helloForEach": [
+                "helloForEach/helloForEach.js"
+            ],
+            "c/eventWithData": [
+                "eventWithData/eventWithData.js"
+            ],
+            "c/recordViewFormStaticContact": [
+                "recordViewFormStaticContact/recordViewFormStaticContact.js"
+            ],
+            "c/hello": [
+                "hello/hello.js"
+            ],
+            "c/miscGetUserId": [
+                "miscGetUserId/miscGetUserId.js"
+            ],
+            "c/miscModal": [
+                "miscModal/miscModal.js"
+            ],
+            "c/libsMomentjs": [
+                "libsMomentjs/libsMomentjs.js"
+            ],
+            "c/miscDomQuery": [
+                "miscDomQuery/miscDomQuery.js"
+            ],
+            "c/libsChartjs": [
+                "libsChartjs/libsChartjs.js"
+            ],
+            "c/wireGetRecordUser": [
+                "wireGetRecordUser/wireGetRecordUser.js"
+            ],
+            "c/wireListView": [
+                "wireListView/wireListView.js"
+            ],
+            "c/libsD3": [
+                "libsD3/libsD3.js"
+            ],
+            "c/ldsCreateRecord": [
+                "ldsCreateRecord/ldsCreateRecord.js"
+            ],
+            "c/wireGetRecordDynamicContact": [
+                "wireGetRecordDynamicContact/wireGetRecordDynamicContact.js"
+            ],
+            "c/wireGetRecordStaticContact": [
+                "wireGetRecordStaticContact/wireGetRecordStaticContact.js"
+            ],
+            "c/ldsDeleteRecord": [
+                "ldsDeleteRecord/ldsDeleteRecord.js"
+            ],
+            "c/apexWireMethodToProperty": [
+                "apexWireMethodToProperty/apexWireMethodToProperty.js"
+            ],
+            "c/apexWireMethodWithParams": [
+                "apexWireMethodWithParams/apexWireMethodWithParams.js"
+            ],
+            "c/apexStaticSchema": [
+                "apexStaticSchema/apexStaticSchema.js"
+            ],
+            "c/apexWireMethodToFunction": [
+                "apexWireMethodToFunction/apexWireMethodToFunction.js"
+            ],
+            "c/apexImperativeMethodWithComplexParams": [
+                "apexImperativeMethodWithComplexParams/apexImperativeMethodWithComplexParams.js"
+            ],
+            "c/apexImperativeMethodWithParams": [
+                "apexImperativeMethodWithParams/apexImperativeMethodWithParams.js"
+            ],
+            "c/navToListView": [
+                "navToListView/navToListView.js"
+            ],
+            "c/apexImperativeMethod": [
+                "apexImperativeMethod/apexImperativeMethod.js"
+            ],
+            "c/clock": [
+                "clock/clock.js"
+            ],
+            "c/compositionBasics": [
+                "compositionBasics/compositionBasics.js"
+            ],
+            "c/navToNewRecord": [
+                "navToNewRecord/navToNewRecord.js"
+            ],
+            "c/categoryFilter": [
+                "categoryFilter/categoryFilter.js"
+            ],
+            "c/navToHelloTab": [
+                "navToHelloTab/navToHelloTab.js"
+            ],
+            "c/navToHome": [
+                "navToHome/navToHome.js"
+            ],
+            "c/chartBar": [
+                "chartBar/chartBar.js"
+            ],
+            "c/navToChatterHome": [
+                "navToChatterHome/navToChatterHome.js"
+            ],
+            "c/apiSetterGetter": [
+                "apiSetterGetter/apiSetterGetter.js"
+            ],
+            "c/navToFilesHome": [
+                "navToFilesHome/navToFilesHome.js"
+            ],
+            "c/auraPubsub": [
+                "auraPubsub/auraPubsub.js"
+            ],
+            "c/apiFunction": [
+                "apiFunction/apiFunction.js"
+            ],
+            "c/mortgage": [
+                "mortgage/mortgage.js"
+            ],
+            "c/apiProperty": [
+                "apiProperty/apiProperty.js"
+            ],
+            "c/bikeCard": [
+                "bikeCard/bikeCard.js"
+            ],
+            "c/myFirstWebComponent": [
+                "myFirstWebComponent/myFirstWebComponent.js"
+            ],
+            "c/similarProducts": [
+                "similarProducts/similarProducts.js"
+            ],
+            "c/helloWebComponent": [
+                "helloWebComponent/helloWebComponent.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/tile": [
+                "tile/tile.js"
+            ],
+            "c/inlineMessage": [
+                "inlineMessage/inlineMessage.js"
+            ],
+            "c/ldsUtils": [
+                "ldsUtils/ldsUtils.js"
+            ],
+            "c/list": [
+                "list/list.js"
+            ],
+            "c/selector": [
+                "selector/selector.js"
+            ],
+            "c/accountMap": [
+                "accountMap/accountMap.js"
+            ],
+            "c/data": [
+                "data/data.js"
+            ],
+            "c/detail": [
+                "detail/detail.js"
+            ],
+            "c/orderItemTile": [
+                "orderItemTile/orderItemTile.js"
+            ],
+            "c/orderBuilder": [
+                "orderBuilder/orderBuilder.js"
+            ],
+            "c/productTileList": [
+                "productTileList/productTileList.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/productListItem": [
+                "productListItem/productListItem.js"
+            ],
+            "c/productTile": [
+                "productTile/productTile.js"
+            ],
+            "c/productCard": [
+                "productCard/productCard.js"
+            ],
+            "c/productFilter": [
+                "productFilter/productFilter.js"
+            ],
+            "c/paginator": [
+                "paginator/paginator.js"
+            ],
+            "c/placeholder": [
+                "placeholder/placeholder.js"
+            ],
+            "c/bearList": [
+                "bearList/bearList.js"
+            ],
+            "c/bearTile": [
+                "bearTile/bearTile.js"
+            ],
+            "c/bearMap": [
+                "bearMap/bearMap.js"
+            ]
+        },
+        "experimentalDecorators": true
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
