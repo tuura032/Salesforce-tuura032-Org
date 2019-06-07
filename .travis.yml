@@ -19,5 +19,5 @@ before_install:
 - sfdx plugins --core
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key --username $USERNAME --setdefaultdevhubusername -a MyDevOrg
 script:
-- sfdx force:source:deploy -u MyDevOrg
+- sfdx force:source:deploy --sourcepath /force-app
 
