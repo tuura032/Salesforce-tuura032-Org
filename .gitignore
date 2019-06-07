@@ -14,6 +14,7 @@ yarn-error.log*
 
 # Dependency directories
 node_modules/
+assets/
 
 # Eslint cache
 .eslintcache
@@ -26,3 +27,5 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
+
+.vscode
