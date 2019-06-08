@@ -22,6 +22,6 @@ script:
 - sfdx force:org:create -v MainDevOrg -s -f config/project-scratch-def.json -a ciorg --wait 3
 - sfdx force:org:display -u ciorg
 - sfdx force:source:deploy -u MainDevOrg -m ApexClass:AccountController
-- sfdx force:source:deploy -u MainDevOrg
+- sfdx force:source:deploy -u MainDevOrg -x manifest/package.xml
 - sfdx force:org:delete -u ciorg -p
 
