@@ -131,9 +131,6 @@
             "c/wireListView": [
                 "wireListView/wireListView.js"
             ],
-            "c/libsD3": [
-                "libsD3/libsD3.js"
-            ],
             "c/ldsCreateRecord": [
                 "ldsCreateRecord/ldsCreateRecord.js"
             ],
